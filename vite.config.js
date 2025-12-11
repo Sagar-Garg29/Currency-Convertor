@@ -6,7 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),
     tailwindcss(),
-    base: "/Currency-Convertor/"
   ],
-  base : "/Currency-Convertor /"
+  base : "/Currency-Convertor/"
 })
